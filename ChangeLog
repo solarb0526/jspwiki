@@ -1,4 +1,53 @@
+2017-04-22  Dirk Frederickx (brushed AT apache DOT org)
+
+       * 2.10.3-git-38  Haddock Template updates
+
+       * Fixing some minor issues with the Image plugin ALIGN parameter
+
+       * %%magnify: add a magnifying glass to to reveal details of a cropped images.
+         Hover the mouse above the image to see the effect.
+
+       * Redesigned Header
+         The header (including the menu bar) now shifts up when you scroll down,
+         and reappears when scrolling back-up.  So you can quickly have access
+         to all the menu's and the quick search function.  Clicking the pagename
+         in the header get's you immediately back to the top of the page.
+         The menu bar has now become part of the (coloured) header section.
+
+       * Editor:
+         Improved the speed of the editor quick preview when editing large pages.
+         Updates to various editor auto-suggest dialogs.
+
+
+2017-03-18  Dirk Frederickx (brushed AT apache DOT org)
+
+       * 2.10.3-git-37  Haddock Template
+
+       * JSPWIKI-1055:  Haddock Special Block Marker
+         Added a few icons to improve rendering of contextual blocks in B/W.
+
+2017-03-14  Dirk Frederickx (brushed AT apache DOT org)
+
+       * 2.10.3-git-36  Haddock Template
+
+       * Few fixes on the %%column style
+
+2017-03-12  Dirk Frederickx (brushed AT apache DOT org)
+
+       * 2.10.3-git-35  Haddock Template updates
+
+       * ImagePlugin:  minor update to apply the css class and styles
+         parameters to the image container, not to the whole table;
+         escape HTML entities in captions.
+
+       * several CSS stylesheet additions
+         - image styles : effects, captions, frames, animation
+         - background styles : color, background images
+
+       * %%columns: bugfix, few more column styles
+
 2017-03-05  Harry Metske (metskem@apache.org)
+
        * 2.10.3-git-34
 
        * JSPWIKI-1044 - URL in password recovery mail is relative while it should be absolute
